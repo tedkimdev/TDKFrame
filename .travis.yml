@@ -2,8 +2,8 @@ language: objective-c
 osx_image: xcode8.2
 sudo: false
 
-#before_install:
-#  - gem install fastlane
+before_install:
+  - gem install fastlane
 
 #install:
 #  - pod install
