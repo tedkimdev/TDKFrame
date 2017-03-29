@@ -2,16 +2,16 @@ language: objective-c
 osx_image: xcode8.2
 sudo: false
 
-before_install:
-  - gem install fastlane
+#before_install:
+#  - gem install fastlane
 
 #install:
 #  - pod install
 
-before_script:
-  - fastlane snapshot reset_simulators --force
+#before_script:
+#  - fastlane snapshot reset_simulators --force
 
-script:
-  - xcodebuild clean build test -project TDKFrame.xcodeproj -scheme TDKFrame -destination "platform=iOS Simulator,name=iPhone 7,OS=10.2”
+#script:
+#  - xcodebuild clean build test -project TDKFrame.xcodeproj -scheme TDKFrame -destination "platform=iOS Simulator,name=iPhone 7,OS=10.2”
 
 
